@@ -1,0 +1,104 @@
+
+/*DEVELOPER: Mahfuzur Shipu, IS117-005, Fall, 2019 */
+
+/* Top Logo */
+.logo
+{
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: -1px;
+  font-size: 80px;
+  font-weight: 800px;
+  color: transparent;
+  background-image: url(https://media3.giphy.com/media/2HuGIC5jkH5h6/source.gif);
+  background-position: center;
+  -webkit-background-clip: text;
+}
+
+
+.wrapper {
+	border: 5px solid black;
+    text-align: center;
+	height: auto;
+	font-size: 30px;
+	vertical-align: middle;
+	width: auto;
+    font-weight: bold;
+	line-height: 1;
+    position: relative;
+    display: inline-block;
+    margin: .25em;
+    padding: .2em .50em;
+  
+	
+}
+
+.wrapper:hover {
+	background-color: #cce6ff
+}
+.paragraph {
+	text-alignment: center;
+	font-size: 30px;
+}
+/* About Page Starts Here*/
+ .aboutleft {
+  border: 5px solid black ;
+  float: left;
+  text-align: justify;
+  margin-top: 5%; 		
+  margin-left: 5%;
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  padding: 15px;
+  background-color: #cce6ff;
+}
+
+
+.aboutleft:hover {
+	background-color: #BFEBEA;
+}
+
+.aboutcenter {
+  border: 5px solid black ;
+  text-align: justify;
+  margin-top: 5%; 		
+  margin-left: 0%;
+  position: center;
+  width: 350px;
+  height: 400px;
+  padding: 15px;
+  background-color: #cce6ff;
+}
+
+.aboutcenter:hover {
+	background-color: #BFEBEA;
+}
+
+ .aboutright {
+  border: 5px solid black ;
+  float: right;
+  text-align: justify;
+  margin-top: -20.5%; 		
+  margin-right: 5%;
+  width: 350px;
+  height: 400px;
+  padding: 15px;
+  background-color: #cce6ff;
+}
+
+
+.aboutright:hover {
+	background-color: #BFEBEA;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #fff;
+  text-align: center;
+}

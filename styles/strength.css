@@ -1,0 +1,103 @@
+/*DEVELOPER: Mahfuzur Shipu, IS117-005, Fall, 2019 */
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/*
+
+Bar Graph 
+
+*/
+.bar-graph-container {
+  border-left: 4px solid #000;
+  border-bottom: 4px solid #000; 
+  width: 60%;
+  overflow: hidden;
+  margin-left: 350px;
+  margin-top: 50px;
+}
+
+.bar-graph-container p {
+  padding: 20px;
+  color: #fff;
+}
+
+@-webkit-keyframes slide-left {
+   0% {
+     -webkit-transform: translateX(-200%);
+  }
+  70% {
+    -webkit-transform: translateX(2%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(-200%);
+  }
+  
+  70% {
+    -webkit-transform: translateX(2%);
+  }
+  
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+.bar-container {
+ 	background-color:rgba(107, 185, 240, 1);
+}
+
+.html {
+  width: 85%;
+  background-color: rgba(30, 139, 195, 1);
+  animation: slide-left 0.9s ease-in-out 1s both;
+  -webkit-animation: slide-left 0.9s ease-in-out 1s both;
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+
+.css {
+  width: 80%;
+  background-color: rgba(30, 139, 195, 1);
+  animation: slide-left 1s ease-in-out 1s both;
+ -webkit-animation: slide-left 1s ease-in-out 1s both;
+   animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+
+.js {
+  width: 75%;
+  background-color: rgba(30, 139, 195, 1);
+  animation: slide-left 1s ease-in-out 1s both;
+  -webkit-animation: slide-left 1s ease-in-out 1s both;
+   animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+.php {
+  width: 70%;
+  background-color: rgba(30, 139, 195, 1);
+  animation: slide-left 1s ease-in-out 1s both;
+  -webkit-animation: slide-left 1s ease-in-out 1s both;
+   animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+
+.linux {
+  width: 80%;
+  background-color: rgba(30, 139, 195, 1);
+  animation: slide-left 1s ease-in-out 1s both;
+  -webkit-animation: slide-left 1s ease-in-out 1s both;
+   animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+} 
+

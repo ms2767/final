@@ -1,0 +1,37 @@
+/*DEVELOPER: Mahfuzur Shipu, IS117-005, Fall, 2019 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.slide-container {
+  position: relative;
+  height: 500px;
+  width: 900px;
+  overflow: hidden;
+   margin: 0 auto;
+}
+
+.slide-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.slide1 { -webkit-animation: fade 12s infinite; }
+.slide2 { -webkit-animation: fade 12s 4s infinite; }
+.slide3 { -webkit-animation: fade 12s 8s infinite; }
+
+@-webkit-keyframes fade {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  20% { opacity: 1; }
+  30% { opacity: 0; }
+  100% { opacity: 0; }
+}
+

@@ -1,0 +1,66 @@
+/*DEVELOPER: Mahfuzur Shipu, IS117-005, Fall, 2019 */
+
+.pcti {
+    margin: 20px;
+    padding: 5px;
+	width: 600px;
+	height: 625px;
+	float: left;
+	display:inline-block;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+	margin-top: 30px;
+	margin-left: 300px;
+}
+
+.pcti > h1,
+.njit {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.njit {
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+}
+
+.njit > h2,
+.njit > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+
+/* NJIT Section */
+
+
+.pcti1 {
+    margin: 20px;
+    padding: 5px;
+	height: 625px;
+	width: 680px;
+	position: fixed;
+    display:inline-block;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+	margin-top: 30px;
+	margin-left: -400px;
+}
+
+.pcti1 > h1,
+.njit1 {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.njit1 {
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+}
+
+.njit1 > h2,
+.njit1 > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
